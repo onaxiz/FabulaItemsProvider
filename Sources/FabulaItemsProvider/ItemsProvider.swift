@@ -27,7 +27,16 @@ public class ItemsProvider {
     
     public init() {}
     public var items: [ItemData] {
-        [   ItemData(id: 286, category: .study,
+        [
+            ItemData(id: 287, category: .uiux,
+                     section: "Animation",
+                     createDate: "2025-02-10",
+                     title: "Ethereal Glow",
+                     caption: "Soft glowing orbs with organic flow using Fabula color palette",
+                     creator: Contributor.onaxiz.name,
+                     tags: "glow, gradient, animation, fabula, ethereal",
+                     view: FAnyView(P287_EtherealGlow())),
+            ItemData(id: 286, category: .study,
                      section: "Animation",
                      createDate: "2025-07-20",
                      title: "Parallax Poster",
