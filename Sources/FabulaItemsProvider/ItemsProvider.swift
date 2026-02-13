@@ -27,7 +27,15 @@ public class ItemsProvider {
     
     public init() {}
     public var items: [ItemData] {
-        [   ItemData(id: 286, category: .study,
+        [   ItemData(id: 287, category: .uiux,
+                     section: "Animation",
+                     createDate: "2025-02-10",
+                     title: "Marquee",
+                     caption: "Infinite horizontal scrolling text ticker",
+                     creator: Contributor.onaxiz.name,
+                     tags: "marquee, text, animation, scroll",
+                     view: FAnyView(P287_Marquee())),
+            ItemData(id: 286, category: .study,
                      section: "Animation",
                      createDate: "2025-07-20",
                      title: "Parallax Poster",
